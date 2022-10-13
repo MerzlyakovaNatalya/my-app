@@ -1,6 +1,5 @@
 import "./App.css";
-import { Form } from "./components/form/Form";
-import { MessageList } from "./components/messageList/MessageList";
+import { MyCertificates } from "./components/myСertificates";
 
 function App() {
   return (
@@ -8,10 +7,7 @@ function App() {
       <div className="App">
         <header className="App-header"></header>
       </div>
-      <div>
-        <Form></Form>
-        <MessageList></MessageList>
-      </div>
+      <MyCertificates/>
     </>
   );
 }
